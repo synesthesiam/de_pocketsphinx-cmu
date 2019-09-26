@@ -1,0 +1,7 @@
+language:
+  name: "german"
+  code: "de"
+
+text-to-speech:
+  espeak:
+    voice: "de"
