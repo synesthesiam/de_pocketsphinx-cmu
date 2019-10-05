@@ -1,0 +1,258 @@
+{
+  "statistics": {
+    "num_wavs": 15,
+    "num_words": 60,
+    "num_entities": 0,
+    "correct_transcriptions": 13,
+    "correct_intent_names": 0,
+    "correct_words": 58,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.9666666666666667,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "schalte_das_garagenlicht_ein.wav": {
+      "text": "schalte das garagenlicht ein",
+      "transcribe_seconds": 0.07519960403442383,
+      "wav_seconds": 2.1569375,
+      "likelihood": 0.5898062432007241,
+      "word_error": {
+        "expected": "schalte das garagenlicht ein",
+        "actual": "schalte das garagenlicht ein",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "schalte_das_wohnzimmerlampe_aus.wav": {
+      "text": "schalte das wohnzimmerlampe aus",
+      "transcribe_seconds": 0.07349896430969238,
+      "wav_seconds": 2.38725,
+      "likelihood": 0.6060104457948813,
+      "word_error": {
+        "expected": "schalte das wohnzimmerlampe aus",
+        "actual": "schalte das wohnzimmerlampe aus",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "ist_das_garagentor_offen.wav": {
+      "text": "ist das garagentor offen",
+      "transcribe_seconds": 0.06952857971191406,
+      "wav_seconds": 1.950125,
+      "likelihood": 0.07965159085362514,
+      "word_error": {
+        "expected": "ist das garagentor offen",
+        "actual": "ist das garagentor offen",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "sag_mir_die_uhrzeit.wav": {
+      "text": "sag mir die uhrzeit",
+      "transcribe_seconds": 0.046922922134399414,
+      "wav_seconds": 1.627,
+      "likelihood": 0.5615991848496883,
+      "word_error": {
+        "expected": "sag mir die uhrzeit",
+        "actual": "sag mir die uhrzeit",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "wie_kalt_ist_es.wav": {
+      "text": "wie kalt ist es",
+      "transcribe_seconds": 0.04772162437438965,
+      "wav_seconds": 1.3629375,
+      "likelihood": 0.5404942297524207,
+      "word_error": {
+        "expected": "wie kalt ist es",
+        "actual": "wie kalt ist es",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "wie_spät_ist_es.wav": {
+      "text": "wie ist es",
+      "transcribe_seconds": 0.06335878372192383,
+      "wav_seconds": 1.3946875,
+      "likelihood": 0.2830741823882093,
+      "word_error": {
+        "expected": "wie SPäT ist es",
+        "actual": "wie ***   ist es",
+        "words": 4,
+        "correct": 3,
+        "errors": 1
+      }
+    },
+    "wie_ist_die_temperatur.wav": {
+      "text": "wie ist die temperatur",
+      "transcribe_seconds": 0.05302619934082031,
+      "wav_seconds": 1.8011875,
+      "likelihood": 0.5657143379292496,
+      "word_error": {
+        "expected": "wie ist die temperatur",
+        "actual": "wie ist die temperatur",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "schalte_die_wohnzimmerlampe_aus.wav": {
+      "text": "schalte die wohnzimmerlampe aus",
+      "transcribe_seconds": 0.07010746002197266,
+      "wav_seconds": 2.2660625,
+      "likelihood": 0.7059291748307832,
+      "word_error": {
+        "expected": "schalte die wohnzimmerlampe aus",
+        "actual": "schalte die wohnzimmerlampe aus",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "schalte_die_wohnzimmerlampe_ein.wav": {
+      "text": "schalte die wohnzimmerlampe ein",
+      "transcribe_seconds": 0.065338134765625,
+      "wav_seconds": 2.1929375,
+      "likelihood": 0.8353363214046596,
+      "word_error": {
+        "expected": "schalte die wohnzimmerlampe ein",
+        "actual": "schalte die wohnzimmerlampe ein",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "schalte_die_garagenlicht_aus.wav": {
+      "text": "schalte die garagenlicht aus",
+      "transcribe_seconds": 0.071197509765625,
+      "wav_seconds": 2.1773125,
+      "likelihood": 0.6879470843075598,
+      "word_error": {
+        "expected": "schalte die garagenlicht aus",
+        "actual": "schalte die garagenlicht aus",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "wie_heiß_ist_es.wav": {
+      "text": "wie heiß ist es",
+      "transcribe_seconds": 0.05272316932678223,
+      "wav_seconds": 1.372375,
+      "likelihood": 0.4997834398268858,
+      "word_error": {
+        "expected": "wie heiß ist es",
+        "actual": "wie heiß ist es",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "ist_das_garagentor_geschlossen.wav": {
+      "text": "das garagentor geschlossen",
+      "transcribe_seconds": 0.07452011108398438,
+      "wav_seconds": 2.213125,
+      "likelihood": 0.318181681030305,
+      "word_error": {
+        "expected": "IST das garagentor geschlossen",
+        "actual": "*** das garagentor geschlossen",
+        "words": 4,
+        "correct": 3,
+        "errors": 1
+      }
+    },
+    "schalte_die_garagenlicht_ein.wav": {
+      "text": "schalte die garagenlicht ein",
+      "transcribe_seconds": 0.07034182548522949,
+      "wav_seconds": 2.08375,
+      "likelihood": 0.7562128538313942,
+      "word_error": {
+        "expected": "schalte die garagenlicht ein",
+        "actual": "schalte die garagenlicht ein",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "schalte_das_wohnzimmerlampe_ein.wav": {
+      "text": "schalte das wohnzimmerlampe ein",
+      "transcribe_seconds": 0.08229446411132812,
+      "wav_seconds": 2.28075,
+      "likelihood": 0.7743512923321687,
+      "word_error": {
+        "expected": "schalte das wohnzimmerlampe ein",
+        "actual": "schalte das wohnzimmerlampe ein",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "schalte_das_garagenlicht_aus.wav": {
+      "text": "schalte das garagenlicht aus",
+      "transcribe_seconds": 0.12182974815368652,
+      "wav_seconds": 2.2655625,
+      "likelihood": 0.38855926469861973,
+      "word_error": {
+        "expected": "schalte das garagenlicht aus",
+        "actual": "schalte das garagenlicht aus",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    }
+  },
+  "expected": {
+    "schalte_das_garagenlicht_ein.wav": {
+      "text": "schalte das garagenlicht ein"
+    },
+    "schalte_das_wohnzimmerlampe_aus.wav": {
+      "text": "schalte das wohnzimmerlampe aus"
+    },
+    "ist_das_garagentor_offen.wav": {
+      "text": "ist das garagentor offen"
+    },
+    "sag_mir_die_uhrzeit.wav": {
+      "text": "sag mir die uhrzeit"
+    },
+    "wie_kalt_ist_es.wav": {
+      "text": "wie kalt ist es"
+    },
+    "wie_spät_ist_es.wav": {
+      "text": "wie spät ist es"
+    },
+    "wie_ist_die_temperatur.wav": {
+      "text": "wie ist die temperatur"
+    },
+    "schalte_die_wohnzimmerlampe_aus.wav": {
+      "text": "schalte die wohnzimmerlampe aus"
+    },
+    "schalte_die_wohnzimmerlampe_ein.wav": {
+      "text": "schalte die wohnzimmerlampe ein"
+    },
+    "schalte_die_garagenlicht_aus.wav": {
+      "text": "schalte die garagenlicht aus"
+    },
+    "wie_heiß_ist_es.wav": {
+      "text": "wie heiß ist es"
+    },
+    "ist_das_garagentor_geschlossen.wav": {
+      "text": "ist das garagentor geschlossen"
+    },
+    "schalte_die_garagenlicht_ein.wav": {
+      "text": "schalte die garagenlicht ein"
+    },
+    "schalte_das_wohnzimmerlampe_ein.wav": {
+      "text": "schalte das wohnzimmerlampe ein"
+    },
+    "schalte_das_garagenlicht_aus.wav": {
+      "text": "schalte das garagenlicht aus"
+    }
+  }
+}
