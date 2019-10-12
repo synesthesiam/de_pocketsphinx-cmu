@@ -3,20 +3,23 @@
     "num_wavs": 15,
     "num_words": 60,
     "num_entities": 16,
-    "correct_transcriptions": 13,
+    "correct_transcriptions": 14,
     "correct_intent_names": 14,
     "correct_words": 59,
     "correct_entities": 16,
     "transcription_accuracy": 0.9833333333333333,
     "intent_accuracy": 0.9333333333333333,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 0.9333333333333333,
+    "average_transcription_speedup": 29.542336858440002
   },
   "actual": {
     "schalte_das_garagenlicht_ein.wav": {
       "text": "schalte das garagenlicht ein",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -56,10 +59,12 @@
         "state": "ein"
       },
       "intents": [],
-      "recognize_seconds": 0.0003647804260253906,
-      "transcribe_seconds": 0.08024382591247559,
+      "recognize_seconds": 0.0005578994750976562,
+      "transcribe_seconds": 0.07624077796936035,
       "wav_seconds": 2.1569375,
-      "likelihood": 0.6402787312617331,
+      "likelihood": 0.6232828824934302,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "schalte das garagenlicht ein",
         "actual": "schalte das garagenlicht ein",
@@ -72,7 +77,8 @@
       "text": "schalte das wohnzimmerlampe aus",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -112,10 +118,12 @@
         "state": "aus"
       },
       "intents": [],
-      "recognize_seconds": 0.00043129920959472656,
-      "transcribe_seconds": 0.07497954368591309,
+      "recognize_seconds": 0.0004100799560546875,
+      "transcribe_seconds": 0.07365822792053223,
       "wav_seconds": 2.38725,
-      "likelihood": 0.6051625265681864,
+      "likelihood": 0.5990804462740476,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "schalte das wohnzimmerlampe aus",
         "actual": "schalte das wohnzimmerlampe aus",
@@ -128,7 +136,8 @@
       "text": "ist das garagentor offen",
       "intent": {
         "name": "GetGarageState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "ist das garagentor offen",
@@ -146,10 +155,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003578662872314453,
-      "transcribe_seconds": 0.08465337753295898,
+      "recognize_seconds": 0.0002923011779785156,
+      "transcribe_seconds": 0.06999421119689941,
       "wav_seconds": 1.950125,
-      "likelihood": 0.08745923930350111,
+      "likelihood": 0.08773081514946245,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "ist das garagentor offen",
         "actual": "ist das garagentor offen",
@@ -162,7 +173,8 @@
       "text": "sag mir die uhrzeit",
       "intent": {
         "name": "GetTime",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "raw_text": "sag mir die uhrzeit",
@@ -180,10 +192,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00037097930908203125,
-      "transcribe_seconds": 0.06051039695739746,
+      "recognize_seconds": 0.0002892017364501953,
+      "transcribe_seconds": 0.04664778709411621,
       "wav_seconds": 1.627,
-      "likelihood": 0.5743798916617997,
+      "likelihood": 0.5455994240864315,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "sag mir die uhrzeit",
         "actual": "sag mir die uhrzeit",
@@ -196,7 +210,8 @@
       "text": "wie kalt ist es",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "raw_text": "wie kalt ist es",
@@ -214,10 +229,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003571510314941406,
-      "transcribe_seconds": 0.05592775344848633,
+      "recognize_seconds": 0.00029540061950683594,
+      "transcribe_seconds": 0.048776865005493164,
       "wav_seconds": 1.3629375,
-      "likelihood": 0.5078960246085056,
+      "likelihood": 0.5060706749398377,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "wie kalt ist es",
         "actual": "wie kalt ist es",
@@ -230,15 +247,18 @@
       "text": "wie ist es",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.0002608299255371094,
-      "transcribe_seconds": 0.0659780502319336,
+      "recognize_seconds": 0.00024366378784179688,
+      "transcribe_seconds": 0.06174778938293457,
       "wav_seconds": 1.3946875,
-      "likelihood": 0.2630911384253472,
+      "likelihood": 0.27874773762901633,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "wie SPäT ist es",
         "actual": "wie ***   ist es",
@@ -251,7 +271,8 @@
       "text": "wie ist die temperatur",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "raw_text": "wie ist die temperatur",
@@ -269,10 +290,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003018379211425781,
-      "transcribe_seconds": 0.05476713180541992,
+      "recognize_seconds": 0.00028586387634277344,
+      "transcribe_seconds": 0.05755209922790527,
       "wav_seconds": 1.8011875,
-      "likelihood": 0.556845273489156,
+      "likelihood": 0.5670738406744802,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "wie ist die temperatur",
         "actual": "wie ist die temperatur",
@@ -285,7 +308,8 @@
       "text": "schalte die wohnzimmerlampe aus",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -325,10 +349,12 @@
         "state": "aus"
       },
       "intents": [],
-      "recognize_seconds": 0.0004940032958984375,
-      "transcribe_seconds": 0.06611752510070801,
+      "recognize_seconds": 0.00047326087951660156,
+      "transcribe_seconds": 0.06717586517333984,
       "wav_seconds": 2.2660625,
-      "likelihood": 0.70649420964911,
+      "likelihood": 0.7062116357299153,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "schalte die wohnzimmerlampe aus",
         "actual": "schalte die wohnzimmerlampe aus",
@@ -341,7 +367,8 @@
       "text": "schalte die wohnzimmerlampe ein",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -381,10 +408,12 @@
         "state": "ein"
       },
       "intents": [],
-      "recognize_seconds": 0.0004947185516357422,
-      "transcribe_seconds": 0.07195878028869629,
+      "recognize_seconds": 0.00048542022705078125,
+      "transcribe_seconds": 0.0654611587524414,
       "wav_seconds": 2.1929375,
-      "likelihood": 0.8370925746719831,
+      "likelihood": 0.84787748590045,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "schalte die wohnzimmerlampe ein",
         "actual": "schalte die wohnzimmerlampe ein",
@@ -397,7 +426,8 @@
       "text": "schalte die garagenlicht aus",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -437,10 +467,12 @@
         "state": "aus"
       },
       "intents": [],
-      "recognize_seconds": 0.0004875659942626953,
-      "transcribe_seconds": 0.06995892524719238,
+      "recognize_seconds": 0.00047135353088378906,
+      "transcribe_seconds": 0.09460616111755371,
       "wav_seconds": 2.1773125,
-      "likelihood": 0.6905665607110347,
+      "likelihood": 0.6846524698166115,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "schalte die garagenlicht aus",
         "actual": "schalte die garagenlicht aus",
@@ -453,7 +485,8 @@
       "text": "wie heiß ist es",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "raw_text": "wie heiß ist es",
@@ -471,10 +504,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003077983856201172,
-      "transcribe_seconds": 0.054078102111816406,
+      "recognize_seconds": 0.0002944469451904297,
+      "transcribe_seconds": 0.052193641662597656,
       "wav_seconds": 1.372375,
-      "likelihood": 0.4668308460809931,
+      "likelihood": 0.5080484339423121,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "wie heiß ist es",
         "actual": "wie heiß ist es",
@@ -487,7 +522,8 @@
       "text": "ist das garagentor geschlossen",
       "intent": {
         "name": "GetGarageState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "ist das garagentor geschlossen",
@@ -505,10 +541,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00031185150146484375,
-      "transcribe_seconds": 0.07128643989562988,
+      "recognize_seconds": 0.0002989768981933594,
+      "transcribe_seconds": 0.07140946388244629,
       "wav_seconds": 2.213125,
-      "likelihood": 0.31150646299778323,
+      "likelihood": 0.31448022208044507,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "ist das garagentor geschlossen",
         "actual": "ist das garagentor geschlossen",
@@ -521,7 +559,8 @@
       "text": "schalte die garagenlicht ein",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -561,10 +600,12 @@
         "state": "ein"
       },
       "intents": [],
-      "recognize_seconds": 0.0005621910095214844,
-      "transcribe_seconds": 0.07563328742980957,
+      "recognize_seconds": 0.0004818439483642578,
+      "transcribe_seconds": 0.07086825370788574,
       "wav_seconds": 2.08375,
-      "likelihood": 0.7642722837787393,
+      "likelihood": 0.7737319872680813,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "schalte die garagenlicht ein",
         "actual": "schalte die garagenlicht ein",
@@ -577,7 +618,8 @@
       "text": "schalte das wohnzimmerlampe ein",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -617,10 +659,12 @@
         "state": "ein"
       },
       "intents": [],
-      "recognize_seconds": 0.0004515647888183594,
-      "transcribe_seconds": 0.09349393844604492,
+      "recognize_seconds": 0.0004150867462158203,
+      "transcribe_seconds": 0.06863999366760254,
       "wav_seconds": 2.28075,
-      "likelihood": 0.7766781043888515,
+      "likelihood": 0.7899960577093788,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "schalte das wohnzimmerlampe ein",
         "actual": "schalte das wohnzimmerlampe ein",
@@ -633,7 +677,8 @@
       "text": "schalte das garagenlicht aus",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -673,10 +718,12 @@
         "state": "aus"
       },
       "intents": [],
-      "recognize_seconds": 0.00042724609375,
-      "transcribe_seconds": 0.08113360404968262,
+      "recognize_seconds": 0.00040912628173828125,
+      "transcribe_seconds": 0.08177661895751953,
       "wav_seconds": 2.2655625,
-      "likelihood": 0.3818178555474263,
+      "likelihood": 0.38033149391207055,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "schalte das garagenlicht aus",
         "actual": "schalte das garagenlicht aus",
