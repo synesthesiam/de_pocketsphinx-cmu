@@ -1,33 +1,34 @@
 AA high HH AA IH
 AAH anna Q AH N AAH
-AE alan AE L AX N
-AH aber Q AH B EX
+AE jack CH AE K
+AH alle Q AH L AX
 AO kino K IIH N AO
-AW auch Q AW X
-AX alle Q AH L AX
+AW blau B L AW
+AX alan AE L AX N
 AY beim B AY M
 B baby B EEH B IY
 CC dich D IH CC
-CH jack CH AE K
+CH charles CH AA R L Z
 D dach D AH X
+DH the DH AX
 EE dave D EE IH F
 EEH dreh D RR EEH
 EH alex Q AH L EH K S
 EHH fair F EHH EX
 ER roger R AA JH ER
 EX arme Q AH EX M AX
-F aufs Q AW F S
+F darf D AH RR F
 G auge Q AW G AX
 HH haar HH AAH EX
 IH bild B IH L T
 IIH bier B IIH EX
 IY joey JH AX UU IY
 JH jake JH EH IH K
-K bank B AH NG K
+K berg B EH EX K
 L also Q AH L Z OOH
 M baum B AW M
 N bahn B AAH N
-NG dank D AH NG K
+NG bank B AH NG K
 OE hölle HH OE L AX
 OH möchtest M OH CC T AX S T
 OHH blöd B L OHH T
@@ -37,12 +38,12 @@ OOH auto Q AW T OOH
 OY euch Q OY CC
 P club K L UU P
 PF kopf K OO PF
-Q acht Q AH X T
+Q aber Q AH B EX
 R mary M EH R IIH
 RR brot B RR OOH T
-S bist B IH S T
+S aufs Q AW F S
 SH chef SH EH F
-T alte Q AH L T AX
+T acht Q AH X T
 TH smith S M IH TH
 TS arzt Q AH EX TS T
 UH yahoo Y AA HH UH
@@ -51,7 +52,7 @@ UUH blut B L UUH T
 V etwa Q EH T V AH
 VV love L VV V
 W william W IH L Y AX M
-X buch B UUH X
+X auch Q AW X
 Y jahr Y AAH EX
 YY fünf F YY N F
 YYH büro B YYH RR OOH
