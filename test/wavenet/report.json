@@ -625,7 +625,7 @@
       ],
       "text": "schalte die wohnzimmerlampe aus",
       "raw_text": "schalte die wohnzimmerlampe aus",
-      "recognize_seconds": 0.0016600660019321367,
+      "recognize_seconds": 0.0029254619985294994,
       "tokens": [
         "schalte",
         "die",
@@ -639,7 +639,7 @@
         "aus"
       ],
       "wav_seconds": 2.2660625,
-      "transcribe_seconds": 0.15328739200049313,
+      "transcribe_seconds": 0.1747841200012772,
       "speech_confidence": null,
       "wav_name": "schalte_die_wohnzimmerlampe_aus.wav",
       "expected_intent_name": "ChangeLightState",
@@ -706,7 +706,7 @@
       ],
       "text": "schalte das wohnzimmerlampe aus",
       "raw_text": "schalte das wohnzimmerlampe aus",
-      "recognize_seconds": 0.0021519210022233892,
+      "recognize_seconds": 0.002261746001749998,
       "tokens": [
         "schalte",
         "das",
@@ -720,7 +720,7 @@
         "aus"
       ],
       "wav_seconds": 2.38725,
-      "transcribe_seconds": 0.1496971409978869,
+      "transcribe_seconds": 0.17703957600315334,
       "speech_confidence": null,
       "wav_name": "schalte_das_wohnzimmerlampe_aus.wav",
       "expected_intent_name": "ChangeLightState",
@@ -762,7 +762,7 @@
       "entities": [],
       "text": "ist das garagentor geschlossen",
       "raw_text": "ist das garagentor geschlossen",
-      "recognize_seconds": 0.0026255250013491604,
+      "recognize_seconds": 0.001925476000906201,
       "tokens": [
         "ist",
         "das",
@@ -776,7 +776,7 @@
         "geschlossen"
       ],
       "wav_seconds": 2.213125,
-      "transcribe_seconds": 0.1541042179997021,
+      "transcribe_seconds": 0.17528562300140038,
       "speech_confidence": null,
       "wav_name": "ist_das_garagentor_geschlossen.wav",
       "expected_intent_name": "GetGarageState",
@@ -818,7 +818,7 @@
       "entities": [],
       "text": "ist das garagentor offen",
       "raw_text": "ist das garagentor offen",
-      "recognize_seconds": 0.0024829270005284343,
+      "recognize_seconds": 0.002019131999986712,
       "tokens": [
         "ist",
         "das",
@@ -832,7 +832,7 @@
         "offen"
       ],
       "wav_seconds": 1.950125,
-      "transcribe_seconds": 0.152548021000257,
+      "transcribe_seconds": 0.14890898700105026,
       "speech_confidence": null,
       "wav_name": "ist_das_garagentor_offen.wav",
       "expected_intent_name": "GetGarageState",
@@ -874,7 +874,7 @@
       "entities": [],
       "text": "wie heiß ist es",
       "raw_text": "wie heiß ist es",
-      "recognize_seconds": 0.0044440870005928446,
+      "recognize_seconds": 0.0026829790003830567,
       "tokens": [
         "wie",
         "heiß",
@@ -888,7 +888,7 @@
         "es"
       ],
       "wav_seconds": 1.372375,
-      "transcribe_seconds": 0.12750732299900847,
+      "transcribe_seconds": 0.13371410100080539,
       "speech_confidence": null,
       "wav_name": "wie_heiß_ist_es.wav",
       "expected_intent_name": "GetTemperature",
@@ -928,13 +928,13 @@
         "confidence": 0
       },
       "entities": [],
-      "text": "wie ist das",
-      "raw_text": "wie ist das",
+      "text": "wie ist es",
+      "raw_text": "wie ist es",
       "recognize_seconds": 0,
       "tokens": [],
       "raw_tokens": [],
       "wav_seconds": 1.3946875,
-      "transcribe_seconds": 0.15677819800112047,
+      "transcribe_seconds": 0.17732137799976044,
       "speech_confidence": null,
       "wav_name": "wie_spät_ist_es.wav",
       "expected_intent_name": "GetTime",
@@ -950,21 +950,21 @@
         "hypothesis": [
           "wie",
           "ist",
-          "das"
+          "es"
         ],
         "differences": [
           "wie",
           "-spät",
           "ist",
-          "es:das"
+          "es"
         ],
         "words": 4,
-        "errors": 2,
-        "matches": 2,
-        "substitutions": 1,
+        "errors": 1,
+        "matches": 3,
+        "substitutions": 0,
         "deletions": 1,
         "insertions": 0,
-        "error_rate": 0.5
+        "error_rate": 0.25
       }
     },
     "schalte_die_garagenlicht_ein.wav": {
@@ -1000,7 +1000,7 @@
       ],
       "text": "schalte die garagenlicht ein",
       "raw_text": "schalte die garagenlicht ein",
-      "recognize_seconds": 0.0026015439980255906,
+      "recognize_seconds": 0.0027162869992025662,
       "tokens": [
         "schalte",
         "die",
@@ -1014,7 +1014,7 @@
         "ein"
       ],
       "wav_seconds": 2.08375,
-      "transcribe_seconds": 0.15856765700300457,
+      "transcribe_seconds": 0.15931815300064045,
       "speech_confidence": null,
       "wav_name": "schalte_die_garagenlicht_ein.wav",
       "expected_intent_name": "ChangeLightState",
@@ -1081,7 +1081,7 @@
       ],
       "text": "schalte das wohnzimmerlampe ein",
       "raw_text": "schalte das wohnzimmerlampe ein",
-      "recognize_seconds": 0.0008633079996798187,
+      "recognize_seconds": 0.002580435000709258,
       "tokens": [
         "schalte",
         "das",
@@ -1095,7 +1095,7 @@
         "ein"
       ],
       "wav_seconds": 2.28075,
-      "transcribe_seconds": 0.1567361589986831,
+      "transcribe_seconds": 0.15997037000124692,
       "speech_confidence": null,
       "wav_name": "schalte_das_wohnzimmerlampe_ein.wav",
       "expected_intent_name": "ChangeLightState",
@@ -1162,7 +1162,7 @@
       ],
       "text": "schalte die garagenlicht aus",
       "raw_text": "schalte die garagenlicht aus",
-      "recognize_seconds": 0.0025810219995037187,
+      "recognize_seconds": 0.0025933779979823157,
       "tokens": [
         "schalte",
         "die",
@@ -1176,7 +1176,7 @@
         "aus"
       ],
       "wav_seconds": 2.1773125,
-      "transcribe_seconds": 0.15285259799929918,
+      "transcribe_seconds": 0.16114027900039218,
       "speech_confidence": null,
       "wav_name": "schalte_die_garagenlicht_aus.wav",
       "expected_intent_name": "ChangeLightState",
@@ -1218,7 +1218,7 @@
       "entities": [],
       "text": "wie ist die temperatur",
       "raw_text": "wie ist die temperatur",
-      "recognize_seconds": 0.0021126489991729613,
+      "recognize_seconds": 0.0024335119996976573,
       "tokens": [
         "wie",
         "ist",
@@ -1232,7 +1232,7 @@
         "temperatur"
       ],
       "wav_seconds": 1.8011875,
-      "transcribe_seconds": 0.14499515199713642,
+      "transcribe_seconds": 0.1318197569999029,
       "speech_confidence": null,
       "wav_name": "wie_ist_die_temperatur.wav",
       "expected_intent_name": "GetTemperature",
@@ -1299,7 +1299,7 @@
       ],
       "text": "schalte das garagenlicht ein",
       "raw_text": "schalte das garagenlicht ein",
-      "recognize_seconds": 0.0013929670021752827,
+      "recognize_seconds": 0.0029608760014525615,
       "tokens": [
         "schalte",
         "das",
@@ -1313,7 +1313,7 @@
         "ein"
       ],
       "wav_seconds": 2.1569375,
-      "transcribe_seconds": 0.17635016699932748,
+      "transcribe_seconds": 0.16068051500042202,
       "speech_confidence": null,
       "wav_name": "schalte_das_garagenlicht_ein.wav",
       "expected_intent_name": "ChangeLightState",
@@ -1380,7 +1380,7 @@
       ],
       "text": "schalte die wohnzimmerlampe ein",
       "raw_text": "schalte die wohnzimmerlampe ein",
-      "recognize_seconds": 0.0029270220002217684,
+      "recognize_seconds": 0.002564074002293637,
       "tokens": [
         "schalte",
         "die",
@@ -1394,7 +1394,7 @@
         "ein"
       ],
       "wav_seconds": 2.1929375,
-      "transcribe_seconds": 0.13472117300261743,
+      "transcribe_seconds": 0.14810244199907174,
       "speech_confidence": null,
       "wav_name": "schalte_die_wohnzimmerlampe_ein.wav",
       "expected_intent_name": "ChangeLightState",
@@ -1436,7 +1436,7 @@
       "entities": [],
       "text": "sag mir die uhrzeit",
       "raw_text": "sag mir die uhrzeit",
-      "recognize_seconds": 0.0008738520009501372,
+      "recognize_seconds": 0.0007822999978088774,
       "tokens": [
         "sag",
         "mir",
@@ -1450,7 +1450,7 @@
         "uhrzeit"
       ],
       "wav_seconds": 1.627,
-      "transcribe_seconds": 0.047732266000821255,
+      "transcribe_seconds": 0.0481152979991748,
       "speech_confidence": null,
       "wav_name": "sag_mir_die_uhrzeit.wav",
       "expected_intent_name": "GetTime",
@@ -1517,7 +1517,7 @@
       ],
       "text": "schalte das garagenlicht aus",
       "raw_text": "schalte das garagenlicht aus",
-      "recognize_seconds": 0.0007781480017001741,
+      "recognize_seconds": 0.0011028970002371352,
       "tokens": [
         "schalte",
         "das",
@@ -1531,7 +1531,7 @@
         "aus"
       ],
       "wav_seconds": 2.2655625,
-      "transcribe_seconds": 0.08202845699997852,
+      "transcribe_seconds": 0.07788943500054302,
       "speech_confidence": null,
       "wav_name": "schalte_das_garagenlicht_aus.wav",
       "expected_intent_name": "ChangeLightState",
@@ -1573,7 +1573,7 @@
       "entities": [],
       "text": "wie kalt ist es",
       "raw_text": "wie kalt ist es",
-      "recognize_seconds": 0.0009718649998831097,
+      "recognize_seconds": 0.0009116760011238512,
       "tokens": [
         "wie",
         "kalt",
@@ -1587,7 +1587,7 @@
         "es"
       ],
       "wav_seconds": 1.3629375,
-      "transcribe_seconds": 0.049710469000274315,
+      "transcribe_seconds": 0.04886585300118895,
       "speech_confidence": null,
       "wav_name": "wie_kalt_ist_es.wav",
       "expected_intent_name": "GetTemperature",
@@ -1628,12 +1628,12 @@
   "num_entities": 16,
   "correct_transcriptions": 14,
   "correct_intent_names": 14,
-  "correct_words": 58,
+  "correct_words": 59,
   "correct_entities": 16,
   "correct_intent_and_entities": 14,
-  "transcription_accuracy": 0.9666666666666667,
+  "transcription_accuracy": 0.9833333333333333,
   "intent_accuracy": 0.9333333333333333,
   "entity_accuracy": 1,
   "intent_entity_accuracy": 0.9333333333333333,
-  "average_transcription_speedup": 16.635003270070577
+  "average_transcription_speedup": 16.255728443803577
 }
